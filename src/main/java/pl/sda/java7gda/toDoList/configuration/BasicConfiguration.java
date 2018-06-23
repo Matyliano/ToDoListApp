@@ -5,9 +5,9 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan()
+@ComponentScan()  // ładuje ścieżkę, gdzie ma szukać pozostałych komponentów
 public class BasicConfiguration extends WebMvcAutoConfiguration {
-
+// Web MVC - Model View Controller (wzorzec projektowy)
 
 
 }
